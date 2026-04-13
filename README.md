@@ -8,7 +8,8 @@ A yt-dlp extractor plugin for vixsrc.to.
 
 ## Installation
 
-python -m pip install -U https://github.com/kekkodance/yt-dlp-vixsrc/archive/master.zip
+`python -m pip install -U https://github.com/kekkodance/yt-dlp-vixsrc/archive/master.zip`
 
-Or install locally:
-python -m pip install .
+Or install locally:  
+
+`python -m pip install .`
