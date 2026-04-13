@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yt-dlp-vixsrc"
+version = "1.0.0"
+description = "A yt-dlp extractor plugin for VixSrc"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "kekkodance"}
+]
+dependencies = [
+    "yt-dlp"
+]
+
+[tool.setuptools.packages.find]
+include = ["yt_dlp_plugins", "yt_dlp_plugins.*"]
