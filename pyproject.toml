@@ -15,5 +15,5 @@ dependencies = [
     "yt-dlp"
 ]
 
-[tool.setuptools.packages.find]
-include = ["yt_dlp_plugins", "yt_dlp_plugins.*"]
+[tool.setuptools]
+packages = ["yt_dlp_plugins", "yt_dlp_plugins.extractor"]
