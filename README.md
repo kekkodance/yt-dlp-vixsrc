@@ -1,6 +1,6 @@
 # yt-dlp-vixsrc
 
-A yt-dlp extractor plugin for vixsrc.to.
+A yt-dlp extractor plugin for VixSrc.
 
 ## Features
 - Fast chunk downloading for VixSrc HLS streams
