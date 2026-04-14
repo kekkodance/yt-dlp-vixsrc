@@ -11,7 +11,7 @@ class VixSrcIE(InfoExtractor):
         d, b = self._downloader, 'https://vixsrc.to'
         dw, sr = self._download_webpage, self._search_regex
         if d:
-            d.params.update({'concurrent_fragment_downloads': 16, 'retries': 10, 'fragment_retries': 30})
+            d.params.update({'concurrent_fragment_downloads': 15, 'retries': 10, 'fragment_retries': 30})
             d.params.setdefault('retry_sleep', {})['fragment'] = 1.0
 
         t, i = self._match_valid_url(url).group('t', 'i')
